@@ -217,7 +217,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
  */
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js')
+  navigator.serviceWorker.register('/FEND-Restaurant-Reviews-App/sw.js')
     .catch(function (err) {
       console.error(err);
     });
