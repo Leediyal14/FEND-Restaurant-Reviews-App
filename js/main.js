@@ -217,8 +217,13 @@ addMarkersToMap = (restaurants = self.restaurants) => {
  */
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/FEND-Restaurant-Reviews-App/sw.js')
-    .catch(function (err) {
-      console.error(err);
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('/sw.js').then(function (registration) { //navigator.serviceWorker.register('/FEND-Restaurant-Reviews-App/sw.js')
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function (err) {
+      // registration failed
+      console.log('ServiceWorker registration failed: ', err);
     });
+  });
 }
