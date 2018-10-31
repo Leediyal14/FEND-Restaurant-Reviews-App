@@ -22,8 +22,6 @@
    
    * With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like in responsive design, accessibility and offline use.
 
-   * [Live Demo](https://leediyal14.github.io/FEND-Restaurant-Reviews-App/) of the **Restaurant Reviews App** project.
-
 ### Leaflet.js and Mapbox:
 
    * This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
