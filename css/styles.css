@@ -334,3 +334,28 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+
+/* =============== Responsiveness Using Media Queries ============== */
+
+@media (min-width: 460px) and (max-width: 835px) {
+  #restaurants-list li{
+    max-width: 35%;
+    max-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #restaurants-list .restaurant-img {
+    max-height: 200px;
+  }
+}
+
+@media (max-width: 460px) {
+  .filter-options{
+    text-align: center;
+  }
+  #restaurant-list li h1 {
+    height: 25px;
+  }
+}
