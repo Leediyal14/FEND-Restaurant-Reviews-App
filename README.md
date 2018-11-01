@@ -38,4 +38,10 @@
 
    * For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
+#### References
+
+   [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+
+   [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers/://leafletjs.com/)
+
 **Thank You**
