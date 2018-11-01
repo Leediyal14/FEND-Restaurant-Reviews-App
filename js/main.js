@@ -179,7 +179,6 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
-  more.tabIndex = '3';
   li.append(more)
 
   return li
@@ -218,11 +217,11 @@ addMarkersToMap = (restaurants = self.restaurants) => {
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('/sw.js').then(function (registration) { //navigator.serviceWorker.register('/FEND-Restaurant-Reviews-App/sw.js')
+    navigator.serviceWorker.register('/sw.js').then(function (registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function (err) {
-      // registration failed
+      // registration failed :(
       console.log('ServiceWorker registration failed: ', err);
     });
   });
