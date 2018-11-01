@@ -40,8 +40,10 @@
 
 #### References
 
-   [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+   * [Media Queries](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
-   [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers/://leafletjs.com/)
+   * [Responsive Images](https://developers.google.com/web/ilt/pwa/lab-responsive-images)
+
+   * [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers/://leafletjs.com/)
 
 **Thank You**
